@@ -1,0 +1,44 @@
+To run the project on another PC, follow these steps:
+
+1. **Clone the Repository**: 
+   - On your another system, open a terminal or command prompt.
+   - Clone the project repository from GitHub:
+     ```sh
+     git clone https://github.com/yourusername/my-express-mongo-app.git
+     ```
+
+2. **Navigate to the Project Directory**: 
+   - Change directory to the cloned project folder:
+     ```sh
+     cd my-express-mongo-app
+     ```
+
+3. **Install Dependencies**: 
+   - Install project dependencies using npm:
+     ```sh
+     npm install
+     ```
+
+4. **Set up Environment Variables**: 
+   - Create a `.env` file in the root directory of the project.
+   - Add your MongoDB connection string and JWT secret to the `.env` file:
+     ```
+     MONGODB_URI=your_mongodb_connection_string
+     JWT_SECRET=your_jwt_secret
+     ```
+
+5. **Start MongoDB**: 
+   - Ensure MongoDB is installed and running on your system.
+   - Start MongoDB service if it's not already running.
+
+6. **Start the Server**: 
+   - In the terminal, run the following command to start the server:
+     ```sh
+     node server.js
+     ```
+
+7. **Access the Project**: 
+   - Once the server is running, you can access the project through a web browser or use tools like Postman to interact with the APIs.
+   - Open a web browser and navigate to `http://localhost:3000` to verify that the server is running properly.
+
+By following these steps, you should be able to set up and run the project on your another system. If you encounter any issues or have any questions, feel free to ask!
